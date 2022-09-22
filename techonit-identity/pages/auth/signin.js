@@ -24,7 +24,7 @@ export default function Signin() {
                             placeholder='Phone Number' />
                     </div>
                     <div className='text-center'>
-                        <button className="bg-gradient-to-tr from-primary-100 to-primary-500 px-6 py-2 rounded-md">Login</button>
+                        <button className="bg-gradient-to-tr from-primary-100 to-primary-500 px-7 py-2 rounded-lg">Login</button>
                     </div>
                 </div>
             </div>
