@@ -38,7 +38,7 @@ const Sidebar = ({ handleToggleMenu, isShowMenu }) => {
                   />
                 </div>
                 <div className="flex flex-col justify-center">
-                  <span className="extra mr-2 truncate font-bold">Tech On It</span>
+                  <span className="extra mr-2 truncate font-bold">Technology On It</span>
                 </div>
               </div>
             </a>
