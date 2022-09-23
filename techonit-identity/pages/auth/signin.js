@@ -17,11 +17,20 @@ export default function Signin() {
                 {/* Form And Button */}
                 <div>
                     <div className="mb-9">
-                        <input
-                            className='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
-                            maxLength={11}
-                            type='text'
-                            placeholder='Phone Number' />
+                        <div className="mb-2">
+                            <input
+                                className='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
+                                maxLength={11}
+                                type='text'
+                                placeholder='Phone Number' />
+                        </div>
+                        <div>
+                            <input
+                                className='bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500'
+                                maxLength={11}
+                                type='text'
+                                placeholder='Password' />
+                        </div>
                     </div>
                     <div className='text-center'>
                         <button className="bg-gradient-to-tr from-primary-100 to-primary-500 px-7 py-2 rounded-lg">Login</button>
