@@ -18,9 +18,12 @@ export default function Home() {
             Welcome to <a href="https://nextjs.org">TechOnIt!</a>
           </h1>
         </div>
-        <div>
+        <div className='flex gap-3'>
           <Link href='/auth/signin'>
             <a className='p-3 rounded-md border-2'>Signin to account</a>
+          </Link>
+          <Link href='/manage'>
+            <a className='p-3 rounded-md border-2'>Manage</a>
           </Link>
         </div>
       </main>

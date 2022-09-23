@@ -29,12 +29,12 @@ const Sidebar = ({ handleToggleMenu, isShowMenu }) => {
           <Link href="/">
             <a className="flex justify-center text-center m-0">
               <div className="flex px-5">
-                {/* <Image className="w-[50px]"
-                  src={themeMode == 'dark' ? 'logo-light.svg' : 'logo-primary.svg'}
+                <Image className="w-[50px]"
+                  src='/TechOnIt-Logo.png'
                   width={50}
                   height={50}
-                  alt="logo"
-                /> */}
+                  alt="Techonit logo"
+                />
                 <div className="flex flex-col justify-center">
                   <span className="extra mr-2 truncate font-bold">Tech On It</span>
                 </div>
@@ -54,8 +54,8 @@ const Sidebar = ({ handleToggleMenu, isShowMenu }) => {
             </Link>
           </li>
           <li className="nav-item py-1">
-            <Link href="/manage/user">
-              <a className={`nav-link ${isCurrentPage("/manage/advers")} dark:hover:text-slate-100 p-3`}>
+            <Link href="/manage/structure">
+              <a className={`nav-link ${isCurrentPage("/manage/structure")} dark:hover:text-slate-100 p-3`}>
                 <i className="far fa-home dark:text-slate-300"></i>
                 <div className="extra truncate">Structures</div>
               </a>

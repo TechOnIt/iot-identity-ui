@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-const Navbar = ({ handleToggleMenu, handleToggleThemeMode, themeMode }) => {
+const Navbar = ({ handleToggleMenu, handleToggleThemeMode }) => {
     return (
         <nav className="bg-slate-100 dark:bg-slate-800 dark:text-gray-200 dark:shadow-md border-gray-600 px-2 sm:px-4 rounded-b select-none">
             <div className="flex flex-wrap justify-between">
