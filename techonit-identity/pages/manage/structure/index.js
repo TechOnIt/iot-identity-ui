@@ -9,3 +9,4 @@ export default function Index() {
 }
 
 Index.layout = 'manage';
+Index.title = 'Structures manager';
