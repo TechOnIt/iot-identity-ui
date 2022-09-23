@@ -26,11 +26,11 @@ export default function Layout({ children }) {
                             role="main"
                             className="w-full min-h-full px-5 pt-4 md:px-8 md:pt-5 pb:12 bg-noise-light dark:bg-noise-dark"
                         >
-                            <div className="w-[100%] h-[100%] bg-center bg-cover rounded-lg  grid bg-transparent">
+                            {/* <div className="w-[100%] h-[100%] bg-center bg-cover rounded-lg  grid bg-transparent">
                                 <div className="m-auto">
                                     <div className="w-5 h-5 border-t-2 border-r-2 border-black rounded-full animate-spin"></div>
                                 </div>
-                            </div>
+                            </div> */}
                             { children }
                         </main>
                     </div>

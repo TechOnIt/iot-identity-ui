@@ -44,11 +44,11 @@
 }
 
     .main-menu ul li a i {
-        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
 .menu-collapsed .main-menu ul li a i {
-    margin-left: 0;
+    margin-right: 0;
 }
 
 .menu-collapsed .main-menu ul li a {

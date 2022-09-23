@@ -29,12 +29,14 @@ const Sidebar = ({ handleToggleMenu, isShowMenu }) => {
           <Link href="/">
             <a className="flex justify-center text-center m-0">
               <div className="flex px-5">
-                <Image className="w-[50px]"
-                  src='/TechOnIt-Logo.png'
-                  width={50}
-                  height={50}
-                  alt="Techonit logo"
-                />
+                <div className="flex flex-col justify-center">
+                  <Image className="w-[50px] h-[50px]"
+                    src='/TechOnIt-Logo.png'
+                    width={50}
+                    height={50}
+                    alt="Techonit logo"
+                  />
+                </div>
                 <div className="flex flex-col justify-center">
                   <span className="extra mr-2 truncate font-bold">Tech On It</span>
                 </div>

@@ -15,14 +15,14 @@ const Navbar = ({ handleToggleMenu, handleToggleThemeMode }) => {
                         <li className='h-full flex flex-col justify-center'>
                             <Link href='/manage/possession/create'>
                                 <a className='flex items-center p-4 cursor-pointer h-full text-gray-600 hover:text-gray-400 dark:text-slate-300 dark:hover:text-slate-50 '>
-                                    + آگهی جدید
+                                    New User
                                 </a>
                             </Link>
                         </li>
                     </ul>
                 </div>
                 <div className="flex items-center">
-                    <div className="w-full md:w-auto">
+                    <div className="md:w-auto">
                         <ul className="flex flex-row-reverse text-lg md:font-medium">
                             {/* Notification */}
                             <li>
@@ -33,22 +33,14 @@ const Navbar = ({ handleToggleMenu, handleToggleThemeMode }) => {
                                     </span>
                                 </a>
                             </li>
-                            {/* Switch */}
-                            <li>
-                                <label className="flex items-center p-4 cursor-pointer h-full">
-                                    <div className="relative">
-                                        <input type="checkbox" className="sr-only" onClick={handleToggleThemeMode} />
-                                        <div className="block bg-primary-500 dark:bg-slate-700 w-10 h-6 rounded-full"></div>
-                                        <div className="dot absolute left-1 top-1 bg-gray-100 dark:bg-slate-300 w-4 h-4 rounded-full transition"></div>
-                                    </div>
-                                </label>
-                            </li>
                         </ul>
                     </div>
-                    <button type="button" className="flex mr-3 text-sm bg-gray-800 rounded-full focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="dropdown">
-                        <span className="sr-only">Open user menu</span>
-                        <img className="w-8 h-8 rounded-full" src="/assets/images/profile/default.png" alt="user" />
-                    </button>
+                    <div>
+                        <button type="button" className="flex ml-3 text-sm bg-gray-800 rounded-full focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="dropdown">
+                            <span className="sr-only">Open user menu</span>
+                            <img className="w-8 h-8 rounded-full" src="/assets/images/profile/default.png" alt="user" />
+                        </button>
+                    </div>
                 </div>
             </div>
         </nav>
