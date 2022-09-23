@@ -13,7 +13,7 @@ const Navbar = ({ handleToggleMenu, handleToggleThemeMode }) => {
                     </div>
                     <ul className='flex text-sm mr-3'>
                         <li className='h-full flex flex-col justify-center'>
-                            <Link href='/manage/possession/create'>
+                            <Link href='/manage/user/new'>
                                 <a className='flex items-center p-4 cursor-pointer h-full text-gray-600 hover:text-gray-400 dark:text-slate-300 dark:hover:text-slate-50 '>
                                     New User
                                 </a>
